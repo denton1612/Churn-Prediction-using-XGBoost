@@ -1,12 +1,12 @@
 # Bank Customer Data for Churn Analysis and Prediction
 
-## Project Description
+## Project Description:
 This notebook focuses on predicting customer churn — whether a bank customer will leave the bank (Exited = 1) or remain (Exited = 0).
 The model is trained using demographic, financial, and behavioral customer attributes provided in the dataset.
 
 The main goal is to build a high-performance churn prediction model using LightGBM, optimized with Optuna to maximize the ROC-AUC score.
 
-## Project Workflow Overview
+## Project Workflow Overview:
 ### 1. Data Loading & Preprocessing:
 Utility functions are used to handle loading and preparing the dataset:
 - Load .csv files
